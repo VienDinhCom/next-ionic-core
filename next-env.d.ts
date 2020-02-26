@@ -11,6 +11,7 @@ type StencilToReact<T> = {
     children?: ReactNode;
     ref?: MutableRefObject<P>;
     slot?: string;
+    mod?: 'md' | 'ios';
   };
 };
 
